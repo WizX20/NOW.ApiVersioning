@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{716DA470-0644-4483-92A9-1419660351B1}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		CodeFormatting.ruleset = CodeFormatting.ruleset
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		LICENSE = LICENSE
+		NuGet.config = NuGet.config
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NOW.ApiVersioning", "src\ApiVersioning\NOW.ApiVersioning.csproj", "{A1F8C06A-D429-4BED-B627-96E2BA7745CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NOW.ApiVersioning.Swagger", "src\ApiVersioning.Swagger\NOW.ApiVersioning.Swagger.csproj", "{B4A923F2-F748-4296-A2A1-5C8EB0FB6F88}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiVersioning", "ApiVersioning", "{BED664AF-8075-4D9D-9A9F-60D1B66A4512}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{D516C6B0-D8C8-4EF2-B5A9-B5ADFCB23B65}"
+	ProjectSection(SolutionItems) = preProject
+		build\Dependencies.props = build\Dependencies.props
+		build\LibraryProject.props = build\LibraryProject.props
+		build\Package.props = build\Package.props
+		build\ResourceProject.props = build\ResourceProject.props
+		build\TestProject.props = build\TestProject.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{FCC8266A-42D9-4A0A-AF0B-8807452DDEE0}"
+	ProjectSection(SolutionItems) = preProject
+		docs\CODE_OF_CONDUCT.md = docs\CODE_OF_CONDUCT.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiTestApplication", "src\ApiTestApplication\ApiTestApplication.csproj", "{38024BA1-E2CE-4AAA-97D0-B76C1A7B58EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1F8C06A-D429-4BED-B627-96E2BA7745CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1F8C06A-D429-4BED-B627-96E2BA7745CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1F8C06A-D429-4BED-B627-96E2BA7745CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1F8C06A-D429-4BED-B627-96E2BA7745CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4A923F2-F748-4296-A2A1-5C8EB0FB6F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A923F2-F748-4296-A2A1-5C8EB0FB6F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A923F2-F748-4296-A2A1-5C8EB0FB6F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A923F2-F748-4296-A2A1-5C8EB0FB6F88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38024BA1-E2CE-4AAA-97D0-B76C1A7B58EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38024BA1-E2CE-4AAA-97D0-B76C1A7B58EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38024BA1-E2CE-4AAA-97D0-B76C1A7B58EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38024BA1-E2CE-4AAA-97D0-B76C1A7B58EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1F8C06A-D429-4BED-B627-96E2BA7745CB} = {BED664AF-8075-4D9D-9A9F-60D1B66A4512}
+		{B4A923F2-F748-4296-A2A1-5C8EB0FB6F88} = {BED664AF-8075-4D9D-9A9F-60D1B66A4512}
+		{D516C6B0-D8C8-4EF2-B5A9-B5ADFCB23B65} = {716DA470-0644-4483-92A9-1419660351B1}
+		{FCC8266A-42D9-4A0A-AF0B-8807452DDEE0} = {716DA470-0644-4483-92A9-1419660351B1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {46A24A9C-F0DE-45CB-9557-A0BEEFDFA61C}
+	EndGlobalSection
+EndGlobal

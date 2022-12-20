@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="$(CCResourceProjectProps)" Condition="Exists('$(CCResourceProjectProps)')" />
+  
+  <PropertyGroup>
+    <PackageId>$(PackageIdPrefix).ApiVersioning.Swagger</PackageId>
+    <Version>$(DebugPackageVersion)</Version>
+    <OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+    <Description>
+      This package contains extensions to add a 'Versioned Swagger' and 'Versioned Swagger UI' documentation, 
+      using the `NOW.ApiVersioning` package.
+    </Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0" />
+    <PackageReference Include="NOW.ApiVersioning.ApiVersioning" Version="1.0.0-preview" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiVersioning\NOW.ApiVersioning.csproj" />
+  </ItemGroup>
+
+</Project>
