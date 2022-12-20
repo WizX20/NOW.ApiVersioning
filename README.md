@@ -45,5 +45,5 @@ uses the package [Ardalis.ListStartupServices](https://github.com/ardalis/AspNet
 This project has adopted the code of conduct defined by the [Contributor Covenant](https://contributor-covenant.org/) to clarify expected behavior in our community. For more information, see the [FeatureFlag Extensions Code of Conduct](docs/CODE_OF_CONDUCT.md).
 
 
-[NOW.ApiVersioning.ApiVersioning.nuget]: https://www.nuget.org/packages/NOW.ApiVersioning
+[NOW.ApiVersioning.nuget]: https://www.nuget.org/packages/NOW.ApiVersioning
 [NOW.ApiVersioning.Swagger.nuget]: https://www.nuget.org/packages/NOW.ApiVersioning.Swagger
