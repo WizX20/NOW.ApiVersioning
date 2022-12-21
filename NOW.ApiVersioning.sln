@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solutio
 		Directory.Build.targets = Directory.Build.targets
 		LICENSE = LICENSE
 		NuGet.config = NuGet.config
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NOW.ApiVersioning", "src\ApiVersioning\NOW.ApiVersioning.csproj", "{A1F8C06A-D429-4BED-B627-96E2BA7745CB}"
