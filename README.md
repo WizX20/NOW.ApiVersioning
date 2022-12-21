@@ -19,8 +19,8 @@ NuGet Packages
 
 | Package Name | .NET 7 |
 | ------------ | :-----------: |
-| [ApiVersioning][NOW.ApiVersioning.nuget] | 1.0.0 Preview |
-| [ApiVersioning.Swagger][NOW.ApiVersioning.Swagger.nuget] | 1.0.0 Preview |
+| [ApiVersioning][NOW.ApiVersioning.nuget] | 1.0.1 Preview |
+| [ApiVersioning.Swagger][NOW.ApiVersioning.Swagger.nuget] | 1.0.1 Preview |
 
 
 # Getting started
