@@ -1,5 +1,4 @@
 ﻿using ApiTestApplication.Configuration;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 
 namespace ApiTestApplication.Extensions.ServiceCollection
 {
@@ -23,10 +22,12 @@ namespace ApiTestApplication.Extensions.ServiceCollection
                 throw new ArgumentNullException(nameof(configuration));
             }
 
+            var options = services.AddOptions<AppSettingsConfiguration>()
+                .Bind(configuration)
+                .ValidateOnStart();
+
             var appSettings = new AppSettingsConfiguration();
             configuration.Bind(appSettings);
-
-            services.TryAddSingleton(appSettings);
 
             return appSettings;
         }

@@ -3,7 +3,7 @@
     public class ResponseCachingOptions
     {
         /// <summary>
-        /// The largest cacheable size for the response body in bytes. The default is set to 64 MB.
+        /// The largest cache-able size for the response body in bytes. The default is set to 64 MB.
         /// </summary>
         public long MaximumBodySize { get; set; }
 
