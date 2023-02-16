@@ -22,7 +22,7 @@ namespace ApiTestApplication.Extensions.ServiceCollection
                 throw new ArgumentNullException(nameof(configuration));
             }
 
-            var options = services.AddOptions<AppSettingsConfiguration>()
+            services.AddOptions<AppSettingsConfiguration>()
                 .Bind(configuration)
                 .ValidateOnStart();
 
