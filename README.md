@@ -33,10 +33,10 @@ uses the package [Ardalis.ListStartupServices](https://github.com/ardalis/AspNet
 
 # Features
 
-- [NOW.FeatureFlagExtensions.ApiVersioning](src/ApiVersioning/README.md)<br>
+- [NOW.ApiVersioning](src/ApiVersioning/README.md)<br>
   Simplifies setup and configuration for API Version behavior with `Microsoft.AspNetCore.Mvc.Versioning`. The middleware provided combines path (_URL_), query-string and header version-readers. [read more...](src/ApiVersioning/README.md)
 
-- [NOW.FeatureFlagExtensions.ApiVersioning.Swagger](src/ApiVersioning.Swagger/README.md)<br>
+- [NOW.ApiVersioning.Swagger](src/ApiVersioning.Swagger/README.md)<br>
   This package contains extensions to add a 'Versioned Swagger' and 'Versioned Swagger UI' documentation, using the `NOW.FeatureFlagExtensions.ApiVersioning` package. [read more...](src/ApiVersioning.Swagger/README.md)
 
 
