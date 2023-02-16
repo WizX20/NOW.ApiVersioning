@@ -2,7 +2,7 @@
 
   <PropertyGroup>
 	  <PackageIdPrefix>NOW</PackageIdPrefix>
-	  <DebugPackageVersion>1.0.1-preview</DebugPackageVersion>
+	  <DebugPackageVersion>1.0.2-preview</DebugPackageVersion>
     <PackageVersionScope>1.*</PackageVersionScope>
   </PropertyGroup>
 
