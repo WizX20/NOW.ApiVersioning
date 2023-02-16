@@ -17,10 +17,10 @@ master | [![master](https://github.com/WizX20/NOW.ApiVersioning/actions/workflow
 NuGet Packages
 ---------------------------
 
-| Package Name | .NET 7 |
-| ------------ | :-----------: |
-| [ApiVersioning][NOW.ApiVersioning.nuget] | 1.0.1 Preview |
-| [ApiVersioning.Swagger][NOW.ApiVersioning.Swagger.nuget] | 1.0.1 Preview |
+| Package Name | .NET 7 | |
+| ------------ | :-----------: | ----------- | 
+| [ApiVersioning][NOW.ApiVersioning.nuget] | Preview | [<img src="https://flat.badgen.net/nuget/v/NOW.ApiVersioning" />][NOW.ApiVersioning.nuget] |
+| [ApiVersioning.Swagger][NOW.ApiVersioning.Swagger.nuget] | Preview | [<img src="https://flat.badgen.net/nuget/v/NOW.ApiVersioning.Swagger" />][NOW.ApiVersioning.Swagger.nuget] |
 
 
 # Getting started
